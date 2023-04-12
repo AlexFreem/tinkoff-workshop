@@ -5,3 +5,15 @@
 .even {
     background-color: #b0b0b0;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
